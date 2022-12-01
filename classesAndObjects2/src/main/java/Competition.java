@@ -3,10 +3,6 @@ public class Competition {
 
         System.out.println("---------------");
 
-        CompetionRules rules = CompetionRules.printRules();
-
-        System.out.println("---------------");
-
         Team teamA = new Team();
         teamA.teamName = "Crazy Ones";
         teamA.p1.name = "Gaia";
@@ -17,7 +13,7 @@ public class Competition {
         teamA.p2.programmingLanguage = "Javascript";
 
         Team teamB = new Team();
-        teamB.teamName = "Holy ones";
+        teamB.teamName = "Good ones";
         teamB.p1.name = "Matteo";
         teamB.p1.yearsOfExperience = 2;
         teamB.p1.programmingLanguage = "C++";
