@@ -13,7 +13,7 @@ public class Student extends CollegePerson implements LearningPerson{
         this.name = name;
         this.surname = surname;
         this.collegeID = id;
-        this.academicYear = year;
+        academicYear = year;
     }
 
 }

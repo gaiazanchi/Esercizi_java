@@ -1,7 +1,6 @@
 package it.develhope.overload;
 
 public class Shape {
-
     public String shapeName;
     public int numberOfEdges;
 
