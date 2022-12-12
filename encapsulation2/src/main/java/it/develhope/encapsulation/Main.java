@@ -14,22 +14,17 @@ public class Main {
 
         //messaggio di avviso per l'utente
         System.out.println("Insert the name of the person: ");
-        //leggo la stringa con lo scanner e la assegno a name
-        String name = scanner.nextLine();
-        //assegno name alla instance variable di Person
-        person.setName(name);
+        //leggo la stringa con lo scanner e la assegno alla instance variable di Person
+        person.setName(scanner.nextLine());
 
         System.out.println("Insert the surname of the person: ");
-        String surname = scanner.nextLine();
-        person.setSurname(surname);
+        person.setSurname(scanner.nextLine());
 
         System.out.println("Insert the age of the person: ");
-        int age = scanner.nextInt();
-        person.setAge(age);
+        person.setAge(scanner.nextInt());
 
         System.out.println("Insert the height of the person: ");
-        double height = scanner.nextDouble();
-        person.setHeight(height);
+        person.setHeight(scanner.nextDouble());
 
         //uso i getter per prendere e poi stampare i valori delle instance variables di Person
         System.out.println("This person is " + person.getName() + " " + person.getSurname() +".");
