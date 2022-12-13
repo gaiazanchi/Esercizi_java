@@ -20,13 +20,14 @@ public class Start {
         //chiedo all'utente di inserire un int e poi tramite il setter lo assegno a floorsNumber di House
         System.out.println("Please set the number of floors of the house [integer number]: ");
         house.setFloorsNumber(scanner.nextInt());
+        //scanner a vuoto per leggere l'invio a capo rimasto non letto
         scanner.nextLine();
 
         //chiedo all'utente di inserire dei nomi separati da virgole
         System.out.println("Please set the residents of the house inserting a list of names divided by a coma: ");
-        //leggo la riga inserita con lo scanner e divido la stringa a livello delle virgole rappresentate da "-". Le varie stringhe in cui residents è stata divisa formano un array
-        //con il setter assegno l'array a residentNames, instance array di House
-        house.setResidentsNames(scanner.nextLine().split(","));
+        //leggo la riga inserita con lo scanner e divido la stringa a livello delle virgole. Le varie stringhe in cui residents è stata divisa formano un array
+        //con il setter assegno l'array a residentNames
+        house.setResidentsNames(scanner.nextLine().split(", "));
 
         //stampo i dettagli di house con i getter
         System.out.println("This house has " + house.getFloorsNumber() + " floors.");
