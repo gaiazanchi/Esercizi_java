@@ -2,13 +2,13 @@ package it.develhope.encapsulation;
 
 public class Person {
 
-    String name;
-    String surname;
-    int age;
+    private String name;
+    private String surname;
+    private int age;
     /**
      * The height of the person [m]
      */
-    double height;
+    private double height;
 
     public void setName(String name) {
         this.name = name;
