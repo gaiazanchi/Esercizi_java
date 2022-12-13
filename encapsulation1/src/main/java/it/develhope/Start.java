@@ -32,7 +32,7 @@ public class Start {
         System.out.println("This house has " + house.getFloorsNumber() + " floors.");
         System.out.println("This house is situated in " + house.getAddress() + ".");
         //%s viene sostituito con Arrays.toString(residents) che è un metodo degli array che trasforma un array in stringa e in input prende l'array
-        System.out.format("The residents are %s.", Arrays.toString(house.getResidentsNames()));
+        System.out.printf("The residents are %s.", Arrays.toString(house.getResidentsNames()));
 
     }
 
