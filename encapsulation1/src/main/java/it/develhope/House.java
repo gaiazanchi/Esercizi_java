@@ -2,9 +2,9 @@ package it.develhope;
 
 public class House {
 
-    int floorsNumber;
-    String address;
-    String[] residentsNames;
+    private int floorsNumber;
+    private String address;
+    private String[] residentsNames;
 
     public House(){
         System.out.println("This is a house.");
