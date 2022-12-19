@@ -1,7 +1,11 @@
 public class Competition {
     public static void main(String[] args) {
 
+        System.out.println("These are the rules:");
+        CompetitionRules.printRules();
+
         System.out.println("---------------");
+
 
         Team teamA = new Team();
         teamA.teamName = "Crazy Ones";
