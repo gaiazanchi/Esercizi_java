@@ -8,9 +8,9 @@ public class CompetitionRules {
 
     private static CompetitionRules competitionRules = new CompetitionRules();
 
-    public static CompetitionRules getInstance(){
-        return competitionRules;
-    }
+    //public static CompetitionRules getInstance(){
+        //return competitionRules;
+    //}
 
     public static void printRules(){
         System.out.println(competitionRules.competitionRule1);
