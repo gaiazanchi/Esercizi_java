@@ -13,8 +13,8 @@ public class Start {
         System.out.println(today.format(DateTimeFormatter.ofPattern("dd MMMM YY HH mm")));
 
         ZonedDateTime todayZoned = ZonedDateTime.now();
-
-        System.out.println(todayZoned);
+        
+        System.out.println(todayZoned.format(DateTimeFormatter.ISO_ZONED_DATE_TIME));
 
     }
 
